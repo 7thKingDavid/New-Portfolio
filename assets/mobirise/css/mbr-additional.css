@@ -538,10 +538,10 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   color: #232323;
 }
 .alert-success {
-  background-color: #0889f1;
+  background-color: #70c770;
 }
 .alert-info {
-  background-color: #1f022c;
+  background-color: #47b5ed;
 }
 .alert-warning {
   background-color: #ffe161;
