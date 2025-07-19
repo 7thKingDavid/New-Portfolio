@@ -11,6 +11,10 @@ body {
   position: relative;
 }
 
+.change {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 button {
   background-color: transparent;
   border-color: transparent;
@@ -34,6 +38,8 @@ a.mbr-iconfont:hover {
 .article .lead blockquote {
   margin-bottom: 0;
 }
+
+
 
 a {
   font-style: normal;
@@ -528,10 +534,20 @@ nav .mbr-section-btn {
 }
 .menu .navbar-brand .navbar-caption-wrap {
   display: -webkit-flex;
+  margin-left: -28px;
 }
 .menu .navbar-brand .navbar-logo img {
   display: -webkit-flex;
+  height: 9rem;
+  object-fit: contain;
+  margin-right: 0.8rem;
   width: auto;
+}
+@media (max-width: 767px) {
+  .navbar-logo img {
+    height: 5rem !important;  /* Adjust to suit */
+    width: auto !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .menu .navbar-toggleable-sm .navbar-nav {
@@ -608,6 +624,7 @@ nav .mbr-section-btn {
 
 .card-wrapper {
   -webkit-flex: 1;
+  margin-top: 105px;
 }
 
 .carousel-control {
